@@ -13,7 +13,7 @@ def factorial(n: int) -> int:
     - Debe resolverse usando un bucle (no recursión).
     """
     if n < 0:
-        raise ValueError("El factorial no está definido para números negativos.")
+        raise ValueError("No se puede calcular con números negativos.")
     
     resultado = 1
     for i in range(1, n + 1):
